@@ -18,6 +18,11 @@ public:
   double Kd;
 
   /*
+   * Previous cte
+   */
+  double prev_cte;
+
+  /*
   * Constructor
   */
   PID();
